@@ -16,7 +16,6 @@ const SimpleForm = () => {
                 <input type="text" name="Email" placeholder="Enter Your Email" />
                 <br />
                 <input type="submit" value="submit" />
-                {/* <button onClick={handleSubmit}>Submit</button> */}
             </form>
         </div>
     );
