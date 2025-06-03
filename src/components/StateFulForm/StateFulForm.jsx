@@ -15,10 +15,8 @@ const StateFulForm = () => {
             setError('');
             console.log(name, email, password);
         }
-        console.log(email);
-        console.log(name);
-        console.log(password);
 
+        console.log(name, email, password);
     }
 
     const handleEmailChange = e => {
