@@ -1,9 +1,10 @@
 
-const Wife = () => {
+const Wife = ({ asset }) => {
 
     return (
         <div>
-            <h2>Wife</h2>
+            <h2>Wife </h2>
+            <p>Got : {asset}</p>
         </div>
     );
 };

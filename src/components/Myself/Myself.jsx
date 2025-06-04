@@ -1,11 +1,11 @@
 import Wife from "../Wife/Wife";
 
-const Myself = () => {
+const Myself = ({asset}) => {
 
     return (
         <div>
             <h2>Me</h2>
-            <Wife></Wife>
+            <Wife asset={asset}></Wife>
         </div>
     );
 };

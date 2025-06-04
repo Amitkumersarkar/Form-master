@@ -11,7 +11,8 @@ function App() {
 
   return (
     <div>
-      <h2>Fill-Up The Form</h2>
+      {/* <h2>Fill-Up The Form</h2> */}
+      <h2>Family Tree</h2>
       <GrandPa></GrandPa>
       {/* <SimpleForm></SimpleForm> */}
       {/* <StateFulForm></StateFulForm> */}
